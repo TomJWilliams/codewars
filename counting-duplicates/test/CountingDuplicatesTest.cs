@@ -13,6 +13,7 @@ namespace test
     [Test]
     public void NoDuplicates_Count_Is_Zero()
     {
+      // test push comment
       var input = "abc";
       var result = CountingDuplicates.DuplicateCount(input);
       var expected = 0;
